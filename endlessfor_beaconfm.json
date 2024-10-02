@@ -1,7 +1,7 @@
 {
     
     "station": {
-        "port": 80,
+        "id": 80,
         "name": "Endless For Beacon FM",
         "shortcode": "endlessfor_beaconfm",
         "description": "Endless For Beacon FM",
@@ -14,9 +14,9 @@
         "playlist_pls_url": "https://stream.zeno.fm/x1wrh2y4jj6uv/playlist.pls",
         "playlist_m3u_url": "https://stream.zeno.fm/x1wrh2y4jj6uv/playlist.m3u",
         "is_public": false,
-        "mount point": [
+        "mounts": [
             {
-                "id": 5,
+                "id": 80,
                 "name": "/radio.mp3 (128kbps MP3)",
                 "url": "https://stream.zeno.fm/x1wrh2y4jj6uv/radio.mp3",
                 "bitrate": 128,
