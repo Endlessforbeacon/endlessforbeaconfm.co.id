@@ -1,0 +1,9 @@
+body {
+    background-image: url(Image/Endless\ For\ Beacon\ FM\ Website\ Background.png);
+    background-color: azure;
+    max-width: 100%;height: auto;max-height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: darkslategray;
+}

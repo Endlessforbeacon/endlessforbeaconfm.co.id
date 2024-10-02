@@ -1,0 +1,50 @@
+{
+    
+    "station": {
+        "id": 5,
+        "name": "Endless For Beacon FM",
+        "shortcode": "endlessfor_beaconfm",
+        "description": "Endless For Beacon FM",
+        "frontend": "icecast",
+        "backend": "none",
+        "timezone": "Asia/Makassar",
+        "listen_url": "https://stream.zeno.fm/x1wrh2y4jj6uv/radio.mp3",
+        "url": "https://endlessforbeaconfm.co.id",
+        "public_player_url": "https://stream.zeno.fm/x1wrh2y4jj6uv",
+        "playlist_pls_url": "https://stream.zeno.fm/x1wrh2y4jj6uv/playlist.pls",
+        "playlist_m3u_url": "https://stream.zeno.fm/x1wrh2y4jj6uv/playlist.m3u",
+        "is_public": false,
+        "mounts": [
+            {
+                "id": 5,
+                "name": "/radio.mp3 (128kbps MP3)",
+                "url": "https://stream.zeno.fm/x1wrh2y4jj6uv/radio.mp3",
+                "bitrate": 128,
+                "format": "mp3",
+                "listeners": {
+                    "total": 0,
+                    "unique": 0,
+                    "current": 0
+                },
+                "path": "/radio.mp3",
+                "is_default": true
+            }
+        ],
+        "remotes": [],
+        "hls_enabled": false,
+        "hls_is_default": false,
+        "hls_url": null,
+        "hls_listeners": 0
+    },
+    "listeners": {
+        "total": 0,
+        "unique": 0,
+        "current": 0
+    },
+    "live": {
+        "is_live": false,
+        "streamer_name": "",
+        "broadcast_start": null,
+        "art": null
+    }
+}

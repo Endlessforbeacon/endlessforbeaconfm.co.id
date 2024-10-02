@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Endless For Beacon FM</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="author" content="Prambors Makassar">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Endless For Beacon FM Streaming" />
+    <meta property="og:description" content="Dengerin Endless For Beacon FM Streaming - The Smile Of The Stand Out For The Radio" />
+    <meta property="og:site_name" content="Endless For Beacon FM" />
+    <meta property="og:image:alt" content="Endless For Beacon FM Streaming" />
+
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link href="dist/glider.min.css" type="text/css" rel="stylesheet">
+    <link href="dist/player3s1.css" type="text/css" rel="stylesheet">
+    
+    <style>
+        body  {
+          background-image: url("Image/Endless\ For\ Beacon\ FM\ Website\ Background.png");
+          background-color: #cccccc;
+          max-width:100%;height: auto;max-height: 100%;
+        }
+    .p3-wrapper {margin: 210px auto;}
+        .p3-metadata {background-color: #4A525D} 
+        .p3-ppBtn {background-color: #ffee00; color: #000000} 
+        .p3-title {color: #FFFFFF} 
+        .p3-artistInfo {color: #FFFFFF} 
+        .p3-streamer {color: #FFFFFF} 
+        .p3-volWrapper {background-color: #333333} 
+        .p3-volSliderBar {background-color: #FFFFFF} 
+        .p3-volWrapper input[type=range]::-webkit-slider-thumb {background-color: #333333} 
+        .p3-likeIcon, a.p3-shareIcon, a.p3-popupIcon {background-color: #333333; color: #FFFFFF} 
+        .p3-volIcon {color: #FFFFFF} 
+        .p3-infoText {color: #FFFFFF} 
+        .liked {color: #333333 !important}
+        </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto" style="float:none;margin:auto;">
+        <br><br>
+        <br>
+        <div id="p1">
+          <div class="p3-wrapper">
+              <div class="p3-player">
+                  <div class="p3-infoText">
+                      <span id="sNameText" class="servertitle">Endless For Beacon FM</span>
+                      <span class="dn" id="messagesText">Open in Pop-up</span>
+                      <b> || Listeners: </b>
+                      <span class="cListeners"></span>
+                  </div>
+                  <div class="p3-artwork"></div>
+                  <div class="p3-blur"></div>
+                  <div class="p3-metadata">
+                      <div class="p3-title"></div>
+                      <div class="p3-artistInfo">
+                          <span class="p3-artist"></span>
+                      </div>
+                      <div class="p3-streamer"></div>
+                  </div>
+
+                  <div class="p3-volWrapper">
+                      <div class="p3-volIcon material-icons p3-vol3"></div>
+                      <div class="p3-volSliderBar"></div>
+                      <input class="p3-volSlider" type="range" min="0" max="100" step="0.1" value="75" autocomplete="off">
+                  </div>
+                  <div class="p3-ppBtn material-icons playBtn" id="ppBtn"></div>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="myCast" id="stream1"></div> -->
+        <br><br>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="dist/glider.min.js"></script>
+  <script src="dist/player.js"></script>
+  <script>
+  $("#p1").WebRadio({
+    URL: "https://link.zeno.fm",
+    radio_id: "endlessfor_beaconfm",
+    streampath: "/radio.mp3",
+    api_id: "endlessfor_beaconfm.json",
+    logo: "Image/130295.v7.png",
+    autoplay: false,
+    metacors: true,
+  });
+</script>
+</body>
+</html>
